@@ -1,0 +1,1 @@
+// TODO: standard log functions, maybe have an option to push to a logstash stash later??
