@@ -6,7 +6,7 @@ There's a long list of TODOs, but I need to get JWT authentication set up and ma
 that before anything else happens.
 
 ## Future plans
-To make this usable I'm going to be writing a frontend in React Native, specifically for iOS, but theoretically for
+To make this usable I'm writing a frontend in React Native, specifically for iOS, but theoretically for
 any mobile operating system.
 
 ## Postman API examples
