@@ -1,0 +1,107 @@
+[
+    {
+        "index": "Item",
+        "code": "Appliance",
+        "translation": "#type.item.appliance"
+    },
+    {
+        "index": "Item",
+        "code": "Bag",
+        "translation": "#type.item.bag"
+    },
+    {
+        "index": "Item",
+        "code": "Book",
+        "translation": "#type.item.book"
+    },
+    {
+        "index": "Item",
+        "code": "Box",
+        "translation": "#type.item.box"
+    },
+    {
+        "index": "Item",
+        "code": "Cabinet",
+        "translation": "#type.item.cabinet"
+    },
+    {
+        "index": "Item",
+        "code": "Cable",
+        "translation": "#type.item.cable"
+    },
+    {
+        "index": "Item",
+        "code": "Clothing",
+        "translation": "#type.item.clothing"
+    },
+    {
+        "index": "Item",
+        "code": "Computer",
+        "translation": "#type.item.computer"
+    },
+    {
+        "index": "Item",
+        "code": "Container",
+        "translation": "#type.item.container"
+    },
+    {
+        "index": "Item",
+        "code": "Drawer",
+        "translation": "#type.item.drawer"
+    },
+    {
+        "index": "Item",
+        "code": "Furniture",
+        "translation": "#type.item.furniture"
+    },
+    {
+        "index": "Item",
+        "code": "Jewelry",
+        "translation": "#type.item.jewelry"
+    },
+    {
+        "index": "Item",
+        "code": "Misc",
+        "translation": "#type.item.misc"
+    },    
+    {
+        "index": "Item",
+        "code": "Peripheral",
+        "translation": "#type.item.peripheral"
+    },
+    {
+        "index": "Item",
+        "code": "Phone",
+        "translation": "#type.item.phone"
+    },
+    {
+        "index": "Item",
+        "code": "Room",
+        "translation": "#type.item.room"
+    },
+    {
+        "index": "Item",
+        "code": "Safe",
+        "translation": "#type.item.safe"
+    },
+    {
+        "index": "Item",
+        "code": "Shelf",
+        "translation": "#type.item.shelf"
+    },
+    {
+        "index": "Item",
+        "code": "Tool",
+        "translation": "#type.item.tool"
+    },
+    {
+        "index": "Item",
+        "code": "Unknown",
+        "translation": "#type.item.unknown"
+    },
+    {
+        "index": "Item",
+        "code": "Vehicle",
+        "translation": "#type.item.vehicle"
+    }
+]

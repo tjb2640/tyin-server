@@ -27,4 +27,4 @@ export const UserSchema = new Schema<User>({
     admin: { type: Boolean, default: false, required: true }
 })
 
-export const PlaceModel = model('User', UserSchema)
+export const UserModel = model('User', UserSchema)

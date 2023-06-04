@@ -19,3 +19,13 @@ export interface PaginatedData<T> {
     itemsPerPage: number
     items: T[]
 }
+
+export interface RateLimitInfo {
+    count: number
+    window: number
+}
+
+export interface RateLimitOptions {
+    windowMs: number
+    maxRequests: number
+}

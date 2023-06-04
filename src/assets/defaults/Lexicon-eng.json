@@ -1,0 +1,14 @@
+{
+    "type": {
+        "item": {
+            "book": "Book",
+            "cable": "Cable",
+            "computer": "Computer",
+            "furniture": "Furniture",
+            "misc": "Other",
+            "peripheral": "Peripheral",
+            "phone": "Phone/Tablet",
+            "unknown": "Unknown"
+        }
+    }
+}
