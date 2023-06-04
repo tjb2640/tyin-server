@@ -17,3 +17,17 @@ export function itemsToPaginatedData<T>(req: Request, items: T[], itemsPerPage: 
         items: items
     } as PaginatedData<T>
 }
+
+/**
+ * Returns the remote address of a Request.
+ * If env->NGINX_USING_REVERSE_PROXY is true, it will return headers[x-forwarded-for] and connection.remoteAddress
+ * instead of `req.ip`
+ * @param req Express Request
+ * @returns `string` ip
+ */
+export function getRemoteAddress(req: Request): string {
+    if (process.env.NGINX_USING_REVERSE_PROXY !== 'true') {
+        return req.ip
+    }
+    return (`${req.headers['x-forwarded-for']}` || req.connection.remoteAddress || '').split(',')[0]
+}
