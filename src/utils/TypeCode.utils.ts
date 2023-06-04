@@ -1,6 +1,7 @@
 import { TypeCode } from "../models/TypeCode.model"
 
 // TODO: convert into an actual mongo collection ASAP, preferably while providing defaults
+// TODO: this needs to be using the actual mongoose schema stuff, not a map.
 const CodeDB: Map<string, string[]> = new Map<string, string[]>()
 
 export function typeCodeExists(index: string, code: string): boolean {

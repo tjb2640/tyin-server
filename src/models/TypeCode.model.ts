@@ -27,3 +27,14 @@ export const TypeCodeSchema = new Schema<TypeCode>({
 })
 
 export const PlaceModel = model('TypeCode', TypeCodeSchema)
+
+export function createDefaultTypeCodeData() {
+    try {
+        const types: TypeCode[] = require('../assets/defaults/TypeCode.json')
+        for (const defaultTypeCode of types) {
+            // TODO: implement insertion of defaults, if they haven't been set up yet
+        }
+    } catch (ex) {
+        console.error(ex)
+    }
+}

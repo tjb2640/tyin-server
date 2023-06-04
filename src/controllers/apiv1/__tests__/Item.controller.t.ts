@@ -11,7 +11,7 @@ const BLANK_ITEM: Item = {
     type: {
         index: "Item",
         code: "SampleCode",
-        translation: "#item.samplecode",
+        translation: "#type.item.samplecode",
         deleted: false,
     },
     deleted: false,
